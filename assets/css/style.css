@@ -1,0 +1,49 @@
+table{
+  width: 100%;
+  border-radius: 40px;
+  border-spacing: 0;
+  overflow: hidden;
+  text-align: center;
+  background: #fff;
+
+}
+th{
+  color: #fff;
+  background: rgb(4, 9, 87);
+}
+th:first-child{
+  background: rgba(1, 6, 68, 0.452);
+}
+th:nth-child(2){
+  background: rgba(4, 10, 87, 0.651);
+}
+th:nth-child(3){
+  background: rgba(4, 10, 87, 0.829);
+}
+th:nth-child(4){
+  background: rgba(4, 10, 87, 0.918);
+}
+th+th{
+  width: 18%;
+}
+th,td{
+  padding: 10px 0;
+}
+tbody>tr:nth-child(2n+1), tfoot>tr{
+  background: rgba(196, 196, 196, 0.438);
+}
+tbody>tr>td:first-child{
+  text-align: left;
+  padding-left: 5px;
+}
+span{
+  font-size: 20px;
+  font-weight: bold;
+}
+tbody>tr td:nth-child(2n+1){
+  background:  rgba(196, 196, 196, 0.233);
+}
+button{
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
